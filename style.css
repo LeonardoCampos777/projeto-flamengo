@@ -1,0 +1,187 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+@font-face {
+    font-family:'Juventude';
+    src: url('fonts/LEMONMILK-Medium.otf')format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+:root{
+    --cor01: #D2232A;
+    --cor02: #b82628;
+    --cor03: #E8E8E8;
+
+    --font-destaque:'Juventude', Arial, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor03);
+}
+
+header{
+    background-color: black;
+    color: white;
+    font-family: 'Juventude', Arial, sans-serif;
+    font-size: 0.8em;
+        box-shadow: 0px 7px 7px rgb(0 0 0 / 36%);
+}
+
+ 
+.logo{
+    background-color: #D2232A;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+
+nav{
+    background-color: #D2232A;
+    font-size: 1em;
+    text-align: right;
+    text-decoration: none;
+    padding-bottom: 20px;
+    
+}
+
+nav ul{
+    padding-right: 70px;
+}
+
+nav li{
+    display: inline-block;
+    padding-top: 10px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    padding-left: 30px;
+    color: white;
+    font-size: 1.1em;
+    display: solid;
+}
+
+nav a:hover{
+    color: black;
+}
+
+.loja{
+    height: 63px;
+    padding-top: 17px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.escudo{
+    padding-left: 229px;
+    max-width: 10px;
+    min-width: 33px;
+}
+
+
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1170px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px 15px rgb(0 0 0 / 57%)
+
+
+}
+
+main img{
+    display: inline-block;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.camisas{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2em;
+    width: 100%;
+    background-image: linear-gradient( to right, #d42c2e, #d42c2e, #d42c2e, transparent);
+    padding: 3px;
+}
+
+main li{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    list-style-position: inside;
+}
+
+main p {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.camisa1{
+    padding-left: 168px;
+    max-width: 200px;
+}
+
+.pcamisa1{
+    font-size: 1.1em;
+}
+
+.camisa2{
+    padding-left: 165px;
+    max-width: 200px;
+}
+
+.camisa3{
+    padding-left: 160px;
+    padding-bottom: 15px;
+    max-width: 200px;
+}
+
+.noticias {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2em;
+    width: 100%;
+    background-image: linear-gradient( to right, #d42c2e, #d42c2e, #d42c2e, transparent);
+    padding: 3px;
+}
+
+.asidep{
+    font-size: 1.1em;
+}
+
+aside > h3{
+    font-size: 1.2em;
+}
+
+.elenco{
+    background-color: #a72729;
+    columns: 2;
+    height: 250px;
+    margin-bottom: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    list-style-type: '\26BD\00A0\00A0';
+}
+
+.treinador{
+    list-style-type: '\1F468\00A0\00A0';
+}
+
+footer{
+    background-color: black;
+    height: 37px;
+
+}
+
+footer p {
+    font-family: 'Juventude', Arial, sans-serif;
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+    padding-bottom: 15px;
+}
